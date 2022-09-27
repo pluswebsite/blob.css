@@ -1,0 +1,55 @@
+@font-face {
+  font-family: duo;
+  src: url(duo.ttf);
+}
+@font-face {
+	font-family: blob;
+	src: url("blob.otf")
+}
+@font-face {
+	font-family: logo;
+	src: url("logo.otf")
+}
+.button-minimal{
+	font-family: duo;
+	all: unset;
+	background-color: #1eaedb;
+	border-radius: 15px;
+	color: white;
+	height: 50px;
+	text-align: center;
+	width: 200px;
+	box-shadow: 0 5px 0 #117695;
+}
+.button-minimal p{
+	font-family: duo;
+}
+.button-minimal:hover{
+	background-color: #33c3f0;
+	border-radius: 15px;
+	color: white;
+	text-align: center;
+}
+.p-minimal{
+	font-family: logo;
+	font-size: 70px;
+}
+.button-minimal:active{
+	box-shadow: none;
+	transform: translateY(5px);
+}
+.a-minimal{
+	font-family: duo;
+}
+.body-minimal{
+	background-color: ghostwhite;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+	height: 100%;
+	font-family: duo
+}
+.br-minimal{
+	padding: 5px;
+}
