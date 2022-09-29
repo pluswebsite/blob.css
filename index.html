@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>My Landing Page</title>
-        <link rel="icon" type="image/png" href="">
+        <link rel="icon" type="image/png" href="logo.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://kit.fontawesome.com/0494e38872.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -228,6 +228,9 @@ footer li a:hover {
   </div>
 </footer>
 <script>
+    if(window.matchMedia('(prefers-color-scheme: dark)').matches){
+        document.getElementById("fav").setAttribute("src","logo-b.png")
+    }
     $(".submenu").slideToggle(500)
 	$(function() {
     $(".btn").click(function() {
